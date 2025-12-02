@@ -1,4 +1,4 @@
-# \ud83e\udd16 Chatbot MCP RAG LangGraph
+# Chatbot MCP RAG LangGraph
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![LangChain](https://img.shields.io/badge/powered%20by-LangChain-0066FF.svg)](https://langchain.readthedocs.io/)
@@ -9,7 +9,7 @@
 
 Intelligent multi-agent chatbot combining RAG, LangGraph, and MCP protocol for advanced workflow automation, document understanding, and collaborative agent interactions.
 
-## \ud83c\udf3f Overview
+## Overview
 
 This project demonstrates:
 - **RAG Integration**: Retrieval-Augmented Generation for document-grounded responses
@@ -18,7 +18,7 @@ This project demonstrates:
 - **Multi-Agent System**: Collaborative agents for specialized tasks
 - **Advanced NLP**: LangChain-powered conversational AI
 
-## \u2728 Key Features
+## Key Features
 
 **Agent Architecture:**
 - Multi-agent collaboration framework
@@ -38,7 +38,7 @@ This project demonstrates:
 - Error handling
 - Prompt engineering
 
-## \ud83d\udd27 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -49,7 +49,7 @@ This project demonstrates:
 | Language | Python 3.10+ |
 | Async | AsyncIO |
 
-## \ud83d\ude80 Quick Start
+## Quick Start
 
 **Installation:**
 ```bash
@@ -67,7 +67,7 @@ response = await chatbot.chat("Your query here")
 print(response)
 ```
 
-## \ud83d\udcc1 Project Structure
+## Project Structure
 
 ```
 Chatbot_MCP_RAG_Langgraph/
@@ -83,7 +83,7 @@ Chatbot_MCP_RAG_Langgraph/
 └── README.md         # This file
 ```
 
-## \ud83e\udd16 Agent Types
+## Agent Types
 
 **Main Agents:**
 - Query Router: Routes user queries to appropriate agents
@@ -96,7 +96,7 @@ Chatbot_MCP_RAG_Langgraph/
 - Memory Manager: Context persistence
 - Log Agent: Interaction tracking
 
-## \ud83d\udcda RAG Pipeline
+## RAG Pipeline
 
 1. **Ingestion**: Document parsing & chunking
 2. **Vectorization**: Semantic embeddings
@@ -105,7 +105,7 @@ Chatbot_MCP_RAG_Langgraph/
 5. **Augmentation**: Context injection
 6. **Generation**: LLM-powered response
 
-## \ud83d\udcc4 Workflow Examples
+## Workflow Examples
 
 **Document QA:**
 ```
@@ -122,7 +122,7 @@ User Query → Router → Tool Agent → MCP Tool → Result → Response
 Query → Decompose → Sub-tasks → Agents → Synthesize → Response
 ```
 
-## \ud83d\udda4 Configuration
+## Configuration
 
 ```python
 config = {
@@ -135,7 +135,7 @@ config = {
 }
 ```
 
-## \ud83e\uddb� Workflow State Management
+## Workflow State Management
 
 **State Schema:**
 - `messages`: Conversation history
@@ -144,25 +144,25 @@ config = {
 - `tools_used`: Tool tracking
 - `metadata`: Session metadata
 
-## \ud83d\udcb5 Performance
+## Performance
 
 - **Latency**: <5s for typical queries
 - **Throughput**: 100+ concurrent users
 - **Accuracy**: 90%+ for document QA
 - **Scalability**: Horizontal scaling ready
 
-## \ud83d\udc4b Contributing
+## Contributing
 
 1. Fork repository
 2. Create feature branch
 3. Commit changes
 4. Push & open PR
 
-## \ud83d\udcc4 License
+## License
 
 MIT License - see LICENSE file
 
-## \ud83d\udce7 Contact
+## Contact
 
 **Author:** Deepuhemant
 
@@ -170,4 +170,4 @@ MIT License - see LICENSE file
 
 ---
 
-**\u2b50 Advanced AI architecture for intelligent automation**
+** Advanced AI architecture for intelligent automation**
